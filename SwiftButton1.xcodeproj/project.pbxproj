@@ -12,6 +12,9 @@
 		213CBFB1216B4324006A0221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213CBFAF216B4324006A0221 /* Main.storyboard */; };
 		213CBFB3216B4325006A0221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 213CBFB2216B4325006A0221 /* Assets.xcassets */; };
 		213CBFB6216B4325006A0221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213CBFB4216B4325006A0221 /* LaunchScreen.storyboard */; };
+		213CBFBF216B45C2006A0221 /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = 213CBFBD216B45C2006A0221 /* key.png */; };
+		213CBFC0216B45C2006A0221 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 213CBFBE216B45C2006A0221 /* setting.png */; };
+		213CBFC2216B4965006A0221 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213CBFC1216B4965006A0221 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		213CBFB2216B4325006A0221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		213CBFB5216B4325006A0221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		213CBFB7216B4325006A0221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		213CBFBD216B45C2006A0221 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key.png; sourceTree = "<group>"; };
+		213CBFBE216B45C2006A0221 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		213CBFC1216B4965006A0221 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		213CBFAA216B4324006A0221 /* SwiftButton1 */ = {
 			isa = PBXGroup;
 			children = (
+				213CBFBD216B45C2006A0221 /* key.png */,
+				213CBFBE216B45C2006A0221 /* setting.png */,
 				213CBFAB216B4324006A0221 /* AppDelegate.swift */,
 				213CBFAD216B4324006A0221 /* ViewController.swift */,
 				213CBFAF216B4324006A0221 /* Main.storyboard */,
 				213CBFB2216B4325006A0221 /* Assets.xcassets */,
 				213CBFB4216B4325006A0221 /* LaunchScreen.storyboard */,
 				213CBFB7216B4325006A0221 /* Info.plist */,
+				213CBFC1216B4965006A0221 /* NextViewController.swift */,
 			);
 			path = SwiftButton1;
 			sourceTree = "<group>";
@@ -125,6 +134,8 @@
 				213CBFB6216B4325006A0221 /* LaunchScreen.storyboard in Resources */,
 				213CBFB3216B4325006A0221 /* Assets.xcassets in Resources */,
 				213CBFB1216B4324006A0221 /* Main.storyboard in Resources */,
+				213CBFC0216B45C2006A0221 /* setting.png in Resources */,
+				213CBFBF216B45C2006A0221 /* key.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				213CBFAE216B4324006A0221 /* ViewController.swift in Sources */,
+				213CBFC2216B4965006A0221 /* NextViewController.swift in Sources */,
 				213CBFAC216B4324006A0221 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
